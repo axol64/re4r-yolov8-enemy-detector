@@ -1,0 +1,10 @@
+path: .
+train: images/train
+val: images/val
+
+# Classes
+names:
+  0: ganado
+  1: leon
+  2: luis
+  3: ashley

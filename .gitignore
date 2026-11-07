@@ -1,0 +1,20 @@
+# macOS & IDE files
+.DS_Store
+.obsidian/
+__pycache__/
+*.pyc
+
+# Large raw videos and local dataset folders (exceed GitHub size limits)
+*.mp4
+*.mov
+images/
+b_images/
+labels/
+labels_multiclass/
+*.cache
+
+# Local training trial directories and base weights
+runs/
+yolov8n.pt
+yolov8s.pt
+yolov8x.pt
